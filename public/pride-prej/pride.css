@@ -1,0 +1,55 @@
+main {
+    margin: 5% 20%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3em;
+}
+
+ul {
+    margin: 5% 0%;
+    font-size: 1.4em;
+
+}
+
+ul li {
+    display: flex;
+    justify-content: left;
+
+}
+
+button {
+    background-color: blue;
+    height: 50px;
+    border: black solid, 2px;
+    color: white;
+    font-size: 1.6em;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    animation: pulse 2s infinite ease-in-out; 
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.7);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 0 15px rgba(0, 123, 255, 0); /* Fade out shadow */
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+    }
+}
+
+.hide{
+    display: none;
+}

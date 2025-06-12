@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+main {
+    margin: 0;
+    background-color: #8A9A5B;
+    padding: 2%;
+}
+
+
+.intro {
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: .3em;
+}
+.intro h1 {
+    font-size: 4.5rem;
+    letter-spacing: .3em;
+}
+
+.folders {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-wrap: wrap;
+    background-color: tan;
+    padding: 2%;
+}
+
+.folder {
+    transition: transform .5s ease-in-out ;
+}
+
+.folder:hover {
+    transform: scale(1.2)
+}

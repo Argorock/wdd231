@@ -1,0 +1,32 @@
+footer {
+    background-color: #854d27; /* Warm brown background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #A9927D; /* Muted gold border */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-links li a:hover {
+    color: #A9927D; /* Muted gold on hover */
+}

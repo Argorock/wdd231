@@ -1,0 +1,104 @@
+{
+    "recipes": {
+        "Spaghetti Carbonara": {
+            "title": "Spaghetti Carbonara",
+            "ingredients": ["Spaghetti", "Eggs", "Pancetta", "Parmesan Cheese", "Black Pepper"],
+            "instructions": "Cook spaghetti. Whisk eggs and Parmesan. Sauté pancetta. Combine everything and serve."
+        },
+        "Chocolate Chip Cookies": {
+            "title": "Chocolate Chip Cookies",
+            "ingredients": ["Flour", "Butter", "Sugar", "Eggs", "Chocolate Chips", "Vanilla Extract"],
+            "instructions": "Mix ingredients. Scoop dough onto a baking sheet. Bake at 350°F for 10-12 minutes."
+        },
+        "Chicken Tikka Masala": {
+            "title": "Chicken Tikka Masala",
+            "ingredients": ["Chicken", "Yogurt", "Tomato Sauce", "Garlic", "Ginger", "Spices"],
+            "instructions": "Marinate chicken in yogurt and spices. Cook in a tomato-based sauce. Serve with rice."
+        },
+        "Avocado Toast": {
+            "title": "Avocado Toast",
+            "ingredients": ["Bread", "Avocado", "Salt", "Pepper", "Lemon Juice"],
+            "instructions": "Toast bread. Mash avocado with lemon juice, salt, and pepper. Spread on toast."
+        },
+        "Classic Pancakes": {
+            "title": "Classic Pancakes",
+            "ingredients": ["Flour", "Milk", "Eggs", "Sugar", "Baking Powder", "Butter"],
+            "instructions": "Mix ingredients. Pour batter onto a hot griddle. Flip when bubbles form. Serve warm."
+        },
+        "Margherita Pizza": {
+            "title": "Margherita Pizza",
+            "ingredients": ["Pizza Dough", "Tomato Sauce", "Mozzarella Cheese", "Basil", "Olive Oil"],
+            "instructions": "Spread tomato sauce on dough. Add mozzarella and basil. Bake at 475°F for 10-15 minutes."
+        },
+        "Beef Stroganoff": {
+            "title": "Beef Stroganoff",
+            "ingredients": ["Beef", "Mushrooms", "Onions", "Sour Cream", "Butter", "Garlic"],
+            "instructions": "Sauté beef and mushrooms. Add onions and garlic. Stir in sour cream and serve over noodles."
+        },
+        "Vegetable Stir-Fry": {
+            "title": "Vegetable Stir-Fry",
+            "ingredients": ["Broccoli", "Carrots", "Bell Peppers", "Soy Sauce", "Ginger", "Garlic"],
+            "instructions": "Sauté vegetables with garlic and ginger. Add soy sauce and stir-fry until tender."
+        },
+        "French Onion Soup": {
+            "title": "French Onion Soup",
+            "ingredients": ["Onions", "Beef Broth", "Butter", "Thyme", "Baguette", "Gruyère Cheese"],
+            "instructions": "Caramelize onions. Add broth and thyme. Serve with toasted baguette and melted cheese."
+        },
+        "Lemon Garlic Salmon": {
+            "title": "Lemon Garlic Salmon",
+            "ingredients": ["Salmon", "Lemon Juice", "Garlic", "Butter", "Parsley", "Salt"],
+            "instructions": "Season salmon with lemon juice and garlic. Bake at 400°F for 12-15 minutes."
+        },
+        "Banana Bread": {
+            "title": "Banana Bread",
+            "ingredients": ["Bananas", "Flour", "Sugar", "Eggs", "Butter", "Baking Soda", "Vanilla Extract"],
+            "instructions": "Mash bananas. Mix with other ingredients. Pour into a loaf pan and bake at 350°F for 50-60 minutes."
+        },
+        "Tomato Basil Soup": {
+            "title": "Tomato Basil Soup",
+            "ingredients": ["Tomatoes", "Basil", "Garlic", "Onion", "Vegetable Broth", "Olive Oil"],
+            "instructions": "Sauté garlic and onion. Add tomatoes and broth. Simmer, then blend until smooth. Stir in basil and serve."
+        },
+        "Shrimp Scampi": {
+            "title": "Shrimp Scampi",
+            "ingredients": ["Shrimp", "Garlic", "Butter", "Lemon Juice", "White Wine", "Parsley", "Spaghetti"],
+            "instructions": "Sauté garlic in butter. Add shrimp, lemon juice, and wine. Serve over cooked spaghetti with parsley."
+        },
+        "Stuffed Bell Peppers": {
+            "title": "Stuffed Bell Peppers",
+            "ingredients": ["Bell Peppers", "Ground Beef", "Rice", "Tomato Sauce", "Onion", "Garlic", "Cheese"],
+            "instructions": "Cook beef and rice. Mix with tomato sauce and seasonings. Stuff into bell peppers and bake at 375°F for 30 minutes."
+        },
+        "Eggplant Parmesan": {
+            "title": "Eggplant Parmesan",
+            "ingredients": ["Eggplant", "Tomato Sauce", "Mozzarella Cheese", "Parmesan Cheese", "Breadcrumbs", "Olive Oil"],
+            "instructions": "Slice and bread eggplant. Fry until golden. Layer with sauce and cheese, then bake at 375°F for 25 minutes."
+        },
+        "Teriyaki Chicken": {
+            "title": "Teriyaki Chicken",
+            "ingredients": ["Chicken", "Soy Sauce", "Brown Sugar", "Garlic", "Ginger", "Sesame Seeds"],
+            "instructions": "Marinate chicken in soy sauce, sugar, garlic, and ginger. Cook until caramelized. Sprinkle with sesame seeds."
+        },
+        "Greek Salad": {
+            "title": "Greek Salad",
+            "ingredients": ["Tomatoes", "Cucumber", "Red Onion", "Feta Cheese", "Olives", "Olive Oil", "Oregano"],
+            "instructions": "Chop vegetables. Toss with feta, olives, and olive oil. Sprinkle with oregano and serve."
+        },
+        "Pumpkin Pie": {
+            "title": "Pumpkin Pie",
+            "ingredients": ["Pumpkin Puree", "Sugar", "Eggs", "Evaporated Milk", "Cinnamon", "Nutmeg", "Pie Crust"],
+            "instructions": "Mix ingredients. Pour into pie crust. Bake at 350°F for 45 minutes."
+        },
+        "Garlic Butter Steak": {
+            "title": "Garlic Butter Steak",
+            "ingredients": ["Steak", "Garlic", "Butter", "Salt", "Pepper", "Rosemary"],
+            "instructions": "Season steak. Sear in a hot pan with butter and garlic. Finish with rosemary and serve."
+        },
+        "Mango Smoothie": {
+            "title": "Mango Smoothie",
+            "ingredients": ["Mango", "Yogurt", "Honey", "Milk", "Ice"],
+            "instructions": "Blend all ingredients until smooth. Serve chilled."
+        }
+    }
+}

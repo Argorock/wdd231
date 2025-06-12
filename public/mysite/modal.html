@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .modal-container {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 1;
+            background-color: beige;
+            /* opacity: 50%; */
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .hide-modal {
+            display: none;
+        }
+        
+        .modal-content {
+            width: 400px;
+            height: 200px;
+            margin: 200px auto;
+            background: aliceblue;
+            opacity: 1;
+            border: 5px black solid;
+            text-align: center;
+        }
+
+    </style>
+
+    <script>
+        document.getElementById("message").addEventListener("click", () => {
+            document.querySelector(".modal-container").classList.remove("hide-modal")
+        });
+        document.getElementById("dismiss").addEventListener("click", () => {
+            document.querySelector(".modal-container").classList.add("hide-modal")
+        });
+
+        document.addEventListener("keydown", (event) => {
+            cnosole.log(event)
+            if (event.key === "Escape")
+                document.querySelector(".modal-container").classList.add("hide-modal")
+        document.querySelector(".modal-container").addEventListener("click", () => {
+            document.querySelector(".modal-content").classList("modal-hide")
+        });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="normal-content">
+        <h1>modal prectice</h1>
+        <h2>section 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus rem at doloremque optio magni reprehenderit magnam obcaecati voluptas. Dignissimos dolore accusamus voluptas esse, tempore ut corporis libero porro iure placeat?</p>
+        <h2>section 2</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit quia, dignissimos aspernatur officiis eaque eveniet quae omnis reprehenderit delectus quas tempore nostrum, ab quaerat unde et illo! Atque, amet quas.
+        <h2>section 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci fuga quia assumenda saepe distinctio praesentium vel molestias quo. Expedita, modi quisquam eveniet et architecto id aspernatur. Harum quis corrupti consequatur?</p>
+        <button id="message">Click here for a VERY IMPORTANT message</button>
+        </p>
+    </div>
+    <div class="modal-container hide-modal">
+        <div class="modal-content">
+            <h3>Very important message</h3>
+            <p>the Church is True</p>
+            <button id="dismiss">True</button>
+        </div>
+    </div>
+</body>
+
+</html>
