@@ -1,0 +1,37 @@
+[
+  {
+    "id": 101,
+    "name": "Electric Toothbrush",
+    "description": "Advanced electric toothbrush with multiple brushing modes and a pressure sensor for optimal cleaning.",
+    "price": 79.99,
+    "imageUrl": "https://placehold.co/400x300/a3e635/1f2937?text=Electric+Toothbrush"
+  },
+  {
+    "id": 102,
+    "name": "Fluoride Toothpaste",
+    "description": "Clinically proven fluoride toothpaste for cavity protection, enamel strengthening, and fresh breath.",
+    "price": 5.49,
+    "imageUrl": "https://placehold.co/400x300/fde047/1f2937?text=Fluoride+Toothpaste"
+  },
+  {
+    "id": 103,
+    "name": "Dental Floss (Mint)",
+    "description": "Shred-resistant dental floss with a refreshing mint flavor for effective plaque removal between teeth.",
+    "price": 3.25,
+    "imageUrl": "https://placehold.co/400x300/22d3ee/1f2937?text=Dental+Floss"
+  },
+  {
+    "id": 104,
+    "name": "Mouthwash (Alcohol-Free)",
+    "description": "Gentle, alcohol-free mouthwash that kills germs, freshens breath, and supports gum health.",
+    "price": 8.75,
+    "imageUrl": "https://placehold.co/400x300/c084fc/1f2937?text=Mouthwash"
+  },
+  {
+    "id": 105,
+    "name": "Tongue Scraper",
+    "description": "Stainless steel tongue scraper designed for effective removal of bacteria and improvement of oral hygiene.",
+    "price": 6.99,
+    "imageUrl": "https://placehold.co/400x300/fb7185/1f2937?text=Tongue+Scraper"
+  }
+]
