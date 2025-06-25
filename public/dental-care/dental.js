@@ -10,7 +10,7 @@ async function fetchProducts() {
   return data;
 }
 
-// Product list
+
 async function renderProductList() {
   console.log('renderProductList() called');
   const container = document.getElementById('product-list');
@@ -39,7 +39,7 @@ async function renderProductList() {
   }
 }
 
-// Product details
+
 function getIdFromURL() {
   const params = new URLSearchParams(window.location.search);
   const id = params.get('id');
@@ -82,7 +82,7 @@ async function renderProductDetails() {
   }
 }
 
-// Modal overlay (details page)
+
 function initOverlay() {
   console.log('Initializing overlay...');
   const overlay = document.getElementById('overlay');
@@ -126,7 +126,7 @@ function initOverlay() {
   });
 }
 
-// Conditional execution
+
 if (document.getElementById('product-list')) {
   console.log('Detected #product-list – initializing list renderer');
   renderProductList();
