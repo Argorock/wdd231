@@ -1,6 +1,6 @@
 footer {
     background-color: #854d27; /* Warm brown background */
-    color: white;
+    color: #f5e9da;
     padding: 20px;
     text-align: center;
     border-top: 2px solid #A9927D; /* Muted gold border */
@@ -23,7 +23,7 @@ footer {
 
 .footer-links li a {
     text-decoration: none;
-    color: white;
+    color: #f5e9da;
     transition: color 0.3s ease-in-out;
 }
 

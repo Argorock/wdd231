@@ -1,67 +1,95 @@
-let recipeData = {}; 
+let recipes = [];
 
+const local = localStorage.getItem('recipes');
+if (local) {
+    recipes = JSON.parse(local);
+    renderFolders(recipes);
+} else {
+    fetch('js/recipes.json')
+      .then(response => response.json())
+      .then(data => {
+          recipes = data.recipes;
+          renderFolders(recipes);
+      })
+      .catch(error => console.error("Error loading recipes:", error));
+}
 
-fetch('js/recipes.json')
-  .then(response => response.json())
-  .then(data => {
-      recipeData = data; 
-      const recipeContainer = document.querySelector('.folders');
-      let folderHTML = "";
+function renderFolders(recipes) {
+    const recipeContainer = document.querySelector('.folders');
+    let folderHTML = "";
 
-      Object.values(data.recipes).forEach(recipe => {
-          folderHTML += `
-              <div class="folder" onclick="openModal('${recipe.title}')">
-                  <img src="images/closed-folder.PNG" alt="recipe-folder">
-                  <p>${recipe.title}</p>
-              </div>
-          `;
-      });
+    recipes.forEach(recipe => {
+        folderHTML += `
+            <div class="folder" onclick="openModal('${recipe.name.replace(/'/g, "\\'")}')">
+                <img src="images/closed-folder.PNG" alt="recipe-folder">
+                <p>${recipe.name}</p>
+            </div>
+        `;
+    });
 
-      recipeContainer.innerHTML = folderHTML;
-  })
-  .catch(error => console.error("Error loading recipes:", error));
+    recipeContainer.innerHTML = folderHTML;
+}
 
-
-function openModal(recipeTitle) {
-    const recipe = recipeData.recipes[recipeTitle];
+function openModal(recipeName) {
+    const recipe = recipes.find(r => r.name === recipeName);
 
     if (!recipe) {
-        console.error("Recipe not found:", recipeTitle);
+        console.error("Recipe not found:", recipeName);
         return;
     }
 
-    document.getElementById("modal-title").textContent = recipe.title;
+    document.getElementById("modal-title").textContent = recipe.name;
 
     const ingredientsList = document.getElementById("modal-ingredients");
-    ingredientsList.innerHTML = recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join("");
+    ingredientsList.innerHTML = recipe.ingredients
+        .map(ingredient => `<li>${ingredient.qty} ${ingredient.unit} ${ingredient.ingredient}</li>`)
+        .join("");
 
-    document.getElementById("modal-instructions").textContent = recipe.instructions;
+    const instructionsList = document.getElementById("modal-instructions");
+    instructionsList.innerHTML = recipe.instructions
+        .map(step => `<li>${step}</li>`)
+        .join("");
 
     const modal = document.querySelector(".modal-container");
-    console.log("Before:", modal.classList);
-    
     modal.classList.remove("hide-modal");
-    
-    console.log("After:", modal.classList);
+
+    document.querySelector('.close-btn').onclick = closeModal;
+    modal.onclick = function(e) {
+        if (e.target === modal) closeModal();
+    };
+    document.onkeydown = function(e) {
+        if (e.key === "Escape") closeModal();
+    };
+    const deleteBtn = document.getElementById('delete-recipe-btn');
+    deleteBtn.onclick = function() {
+        if (confirm(`Delete "${recipe.name}"? This cannot be undone.`)) {
+            recipes = recipes.filter(r => r.name !== recipe.name);
+            localStorage.setItem('recipes', JSON.stringify(recipes));
+            closeModal();
+            renderFolders(recipes);
+        }
+    };
+
+    const viewFullBtn = document.getElementById('view-full-btn');
+    viewFullBtn.onclick = function() {
+        window.location.href = `recipe.html?name=${encodeURIComponent(recipe.name)}`;
+    };
 }
-document.addEventListener("DOMContentLoaded", function() {
+
+function closeModal() {
     const modal = document.querySelector(".modal-container");
-    const closeBtn = document.querySelector(".close-btn");
+    modal.classList.add("hide-modal");
+    
+    document.onkeydown = null;
+    modal.onclick = null;
+    document.querySelector('.close-btn').onclick = null;
+}
 
-    closeBtn.addEventListener("click", () => {
-        modal.classList.add("hide-modal");
-    });
+function addRecipe(newRecipe) {
+    recipes.push(newRecipe);
+    localStorage.setItem('recipes', JSON.stringify(recipes));
+    renderFolders(recipes);
+}
 
 
-    modal.addEventListener("click", (event) => {
-        if (event.target === modal) {
-            modal.classList.add("hide-modal");
-        }
-    });
 
-    document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape") {
-            modal.classList.add("hide-modal");
-        }
-    });
-});

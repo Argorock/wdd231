@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -12,8 +13,7 @@ main {
 
 
 .intro {
-    /* display: flex;
-    justify-content: center; */
+  
     text-align: center;
     font-size: 2.5rem;
     letter-spacing: .3em;
@@ -32,6 +32,8 @@ main {
     flex-wrap: wrap;
     background-color: tan;
     padding: 2%;
+    border-radius: 2%;
+    border: 5px solid #854d27;
 }
 
 .folder {
@@ -52,14 +54,24 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
 }
 
 .modal-content {
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    width: 400px;
-    text-align: center;
+    background: #f5e9da;
+    padding: 32px 24px 24px 24px;
+    border-radius: 16px;
+    width: 90vw;
+    max-width: 480px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    position: relative;
+    text-align: left;
+    animation: modal-pop 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+@keyframes modal-pop {
+    0% { transform: scale(0.8); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
 }
 
 .hide-modal {
@@ -68,10 +80,15 @@ main {
 
 .close-btn {
     position: absolute;
-    right: 15px;
-    top: 10px;
+    top: 16px;
+    right: 22px;
+    font-size: 2rem;
     cursor: pointer;
-    font-size: 20px;
+    color: #333;
+    background: none;
+    border: none;
+    z-index: 2;
+    transition: color 0.2s;
 }
 
 .close-btn {
@@ -83,5 +100,43 @@ main {
     color: black;
 }
 .close-btn:hover {
-    color: red;
+    color: rgb(133, 133, 133);
+}
+
+#modal-title {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 2rem;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    color: #854d27;
+}
+
+.modal-content h4 {
+    margin-bottom: 6px;
+    margin-top: 18px;
+    color: #8A9A5B;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+}
+
+#modal-ingredients, #modal-instructions {
+    margin: 0 0 10px 18px;
+    padding: 0;
+    font-size: 1rem;
+}
+
+#modal-ingredients li, #modal-instructions li {
+    margin-bottom: 4px;
+}
+
+
+@media (max-width: 600px) {
+    .modal-content {
+        max-width: 98vw;
+        padding: 16px 6px 12px 6px;
+        border-radius: 8px;
+    }
+    #modal-title {
+        font-size: 1.3rem;
+    }
 }

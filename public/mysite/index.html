@@ -6,6 +6,7 @@
     <title>The Flavor Files</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/recipes.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -25,11 +26,17 @@
     <div class="modal-container hide-modal">
         <div class="modal-content">
             <span class="close-btn">X</span>
-            <h3 id="modal-title"></h3>
+            <h2 id="modal-title"></h2>
             <h4>Ingredients</h4>
             <ul id="modal-ingredients"></ul>
             <h4>Instructions</h4>
-            <p id="modal-instructions"></p>
+            <ol id="modal-instructions"></ol>
+            <button id="delete-recipe-btn" style="background:#d7263d;color:#fff;border:none;border-radius:6px;padding:0.5rem 1.2rem;margin-top:1rem;cursor:pointer;">
+                Delete Recipe
+            </button>
+            <button id="view-full-btn" style="background:#3d405b;color:#fff;border:none;border-radius:6px;padding:0.5rem 1.2rem;margin-top:1rem;cursor:pointer;">
+                View Full Page
+            </button>
         </div>
     </div>
 

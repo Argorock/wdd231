@@ -1,104 +1,323 @@
 {
-    "recipes": {
-        "Spaghetti Carbonara": {
-            "title": "Spaghetti Carbonara",
-            "ingredients": ["Spaghetti", "Eggs", "Pancetta", "Parmesan Cheese", "Black Pepper"],
-            "instructions": "Cook spaghetti. Whisk eggs and Parmesan. Sauté pancetta. Combine everything and serve."
-        },
-        "Chocolate Chip Cookies": {
-            "title": "Chocolate Chip Cookies",
-            "ingredients": ["Flour", "Butter", "Sugar", "Eggs", "Chocolate Chips", "Vanilla Extract"],
-            "instructions": "Mix ingredients. Scoop dough onto a baking sheet. Bake at 350°F for 10-12 minutes."
-        },
-        "Chicken Tikka Masala": {
-            "title": "Chicken Tikka Masala",
-            "ingredients": ["Chicken", "Yogurt", "Tomato Sauce", "Garlic", "Ginger", "Spices"],
-            "instructions": "Marinate chicken in yogurt and spices. Cook in a tomato-based sauce. Serve with rice."
-        },
-        "Avocado Toast": {
-            "title": "Avocado Toast",
-            "ingredients": ["Bread", "Avocado", "Salt", "Pepper", "Lemon Juice"],
-            "instructions": "Toast bread. Mash avocado with lemon juice, salt, and pepper. Spread on toast."
-        },
-        "Classic Pancakes": {
-            "title": "Classic Pancakes",
-            "ingredients": ["Flour", "Milk", "Eggs", "Sugar", "Baking Powder", "Butter"],
-            "instructions": "Mix ingredients. Pour batter onto a hot griddle. Flip when bubbles form. Serve warm."
-        },
-        "Margherita Pizza": {
-            "title": "Margherita Pizza",
-            "ingredients": ["Pizza Dough", "Tomato Sauce", "Mozzarella Cheese", "Basil", "Olive Oil"],
-            "instructions": "Spread tomato sauce on dough. Add mozzarella and basil. Bake at 475°F for 10-15 minutes."
-        },
-        "Beef Stroganoff": {
-            "title": "Beef Stroganoff",
-            "ingredients": ["Beef", "Mushrooms", "Onions", "Sour Cream", "Butter", "Garlic"],
-            "instructions": "Sauté beef and mushrooms. Add onions and garlic. Stir in sour cream and serve over noodles."
-        },
-        "Vegetable Stir-Fry": {
-            "title": "Vegetable Stir-Fry",
-            "ingredients": ["Broccoli", "Carrots", "Bell Peppers", "Soy Sauce", "Ginger", "Garlic"],
-            "instructions": "Sauté vegetables with garlic and ginger. Add soy sauce and stir-fry until tender."
-        },
-        "French Onion Soup": {
-            "title": "French Onion Soup",
-            "ingredients": ["Onions", "Beef Broth", "Butter", "Thyme", "Baguette", "Gruyère Cheese"],
-            "instructions": "Caramelize onions. Add broth and thyme. Serve with toasted baguette and melted cheese."
-        },
-        "Lemon Garlic Salmon": {
-            "title": "Lemon Garlic Salmon",
-            "ingredients": ["Salmon", "Lemon Juice", "Garlic", "Butter", "Parsley", "Salt"],
-            "instructions": "Season salmon with lemon juice and garlic. Bake at 400°F for 12-15 minutes."
-        },
-        "Banana Bread": {
-            "title": "Banana Bread",
-            "ingredients": ["Bananas", "Flour", "Sugar", "Eggs", "Butter", "Baking Soda", "Vanilla Extract"],
-            "instructions": "Mash bananas. Mix with other ingredients. Pour into a loaf pan and bake at 350°F for 50-60 minutes."
-        },
-        "Tomato Basil Soup": {
-            "title": "Tomato Basil Soup",
-            "ingredients": ["Tomatoes", "Basil", "Garlic", "Onion", "Vegetable Broth", "Olive Oil"],
-            "instructions": "Sauté garlic and onion. Add tomatoes and broth. Simmer, then blend until smooth. Stir in basil and serve."
-        },
-        "Shrimp Scampi": {
-            "title": "Shrimp Scampi",
-            "ingredients": ["Shrimp", "Garlic", "Butter", "Lemon Juice", "White Wine", "Parsley", "Spaghetti"],
-            "instructions": "Sauté garlic in butter. Add shrimp, lemon juice, and wine. Serve over cooked spaghetti with parsley."
-        },
-        "Stuffed Bell Peppers": {
-            "title": "Stuffed Bell Peppers",
-            "ingredients": ["Bell Peppers", "Ground Beef", "Rice", "Tomato Sauce", "Onion", "Garlic", "Cheese"],
-            "instructions": "Cook beef and rice. Mix with tomato sauce and seasonings. Stuff into bell peppers and bake at 375°F for 30 minutes."
-        },
-        "Eggplant Parmesan": {
-            "title": "Eggplant Parmesan",
-            "ingredients": ["Eggplant", "Tomato Sauce", "Mozzarella Cheese", "Parmesan Cheese", "Breadcrumbs", "Olive Oil"],
-            "instructions": "Slice and bread eggplant. Fry until golden. Layer with sauce and cheese, then bake at 375°F for 25 minutes."
-        },
-        "Teriyaki Chicken": {
-            "title": "Teriyaki Chicken",
-            "ingredients": ["Chicken", "Soy Sauce", "Brown Sugar", "Garlic", "Ginger", "Sesame Seeds"],
-            "instructions": "Marinate chicken in soy sauce, sugar, garlic, and ginger. Cook until caramelized. Sprinkle with sesame seeds."
-        },
-        "Greek Salad": {
-            "title": "Greek Salad",
-            "ingredients": ["Tomatoes", "Cucumber", "Red Onion", "Feta Cheese", "Olives", "Olive Oil", "Oregano"],
-            "instructions": "Chop vegetables. Toss with feta, olives, and olive oil. Sprinkle with oregano and serve."
-        },
-        "Pumpkin Pie": {
-            "title": "Pumpkin Pie",
-            "ingredients": ["Pumpkin Puree", "Sugar", "Eggs", "Evaporated Milk", "Cinnamon", "Nutmeg", "Pie Crust"],
-            "instructions": "Mix ingredients. Pour into pie crust. Bake at 350°F for 45 minutes."
-        },
-        "Garlic Butter Steak": {
-            "title": "Garlic Butter Steak",
-            "ingredients": ["Steak", "Garlic", "Butter", "Salt", "Pepper", "Rosemary"],
-            "instructions": "Season steak. Sear in a hot pan with butter and garlic. Finish with rosemary and serve."
-        },
-        "Mango Smoothie": {
-            "title": "Mango Smoothie",
-            "ingredients": ["Mango", "Yogurt", "Honey", "Milk", "Ice"],
-            "instructions": "Blend all ingredients until smooth. Serve chilled."
-        }
-    }
+    "recipes": [
+  {
+    "name": "Spaghetti Carbonara",
+    "ingredients": [
+      { "unit": "oz", "qty": 12, "ingredient": "Spaghetti" },
+      { "unit": "", "qty": 4, "ingredient": "Eggs" },
+      { "unit": "oz", "qty": 6, "ingredient": "Pancetta" },
+      { "unit": "cup", "qty": 1, "ingredient": "Parmesan Cheese" },
+      { "unit": "tsp", "qty": 1, "ingredient": "Black Pepper" }
+    ],
+    "instructions": [
+      "Cook spaghetti.",
+      "Whisk eggs and Parmesan.",
+      "Sauté pancetta.",
+      "Combine everything and serve."
+    ]
+  },
+  {
+    "name": "Chocolate Chip Cookies",
+    "ingredients": [
+      { "unit": "cup", "qty": 2.25, "ingredient": "Flour" },
+      { "unit": "cup", "qty": 1, "ingredient": "Butter" },
+      { "unit": "cup", "qty": 0.75, "ingredient": "White Sugar" },
+      { "unit": "cup", "qty": 0.75, "ingredient": "Brown Sugar" },
+      { "unit": "", "qty": 2, "ingredient": "Eggs" },
+      { "unit": "cup", "qty": 2, "ingredient": "Chocolate Chips" },
+      { "unit": "tsp", "qty": 2, "ingredient": "Vanilla Extract" }
+    ],
+    "instructions": [
+      "Mix ingredients.",
+      "Scoop dough onto a baking sheet.",
+      "Bake at 350°F for 10-12 minutes."
+    ]
+  },
+  {
+    "name": "Chicken Tikka Masala",
+    "ingredients": [
+      { "unit": "lb", "qty": 1.5, "ingredient": "Chicken" },
+      { "unit": "cup", "qty": 1, "ingredient": "Yogurt" },
+      { "unit": "cup", "qty": 1.5, "ingredient": "Tomato Sauce" },
+      { "unit": "tbsp", "qty": 1, "ingredient": "Garlic" },
+      { "unit": "tbsp", "qty": 1, "ingredient": "Ginger" },
+      { "unit": "tbsp", "qty": 1.5, "ingredient": "Spices (garam masala, paprika, turmeric)" }
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and spices.",
+      "Cook in a tomato-based sauce.",
+      "Serve with rice."
+    ]
+  },
+  {
+    "name": "Avocado Toast",
+    "ingredients": [
+      { "unit": "slice", "qty": 4, "ingredient": "Bread" },
+      { "unit": "", "qty": 2, "ingredient": "Avocado" },
+      { "unit": "tsp", "qty": 1, "ingredient": "Salt" },
+      { "unit": "tsp", "qty": 0.5, "ingredient": "Pepper" },
+      { "unit": "tbsp", "qty": 1, "ingredient": "Lemon Juice" }
+    ],
+    "instructions": [
+      "Toast bread.",
+      "Mash avocado with lemon juice, salt, and pepper.",
+      "Spread on toast."
+    ]
+  },
+  {
+    "name": "Classic Pancakes",
+    "ingredients": [
+      { "unit": "cup", "qty": 1.5, "ingredient": "Flour" },
+      { "unit": "cup", "qty": 1.25, "ingredient": "Milk" },
+      { "unit": "", "qty": 1, "ingredient": "Egg" },
+      { "unit": "tbsp", "qty": 2, "ingredient": "Sugar" },
+      { "unit": "tbsp", "qty": 1, "ingredient": "Baking Powder" },
+      { "unit": "tbsp", "qty": 2, "ingredient": "Butter, melted" }
+    ],
+    "instructions": [
+      "Mix ingredients.",
+      "Pour batter onto a hot griddle.",
+      "Flip when bubbles form. Serve warm."
+    ]
+  },
+  {
+    "name": "Margherita Pizza",
+    "ingredients": [
+      { "unit": "lb", "qty": 1, "ingredient": "Pizza Dough" },
+      { "unit": "cup", "qty": 0.75, "ingredient": "Tomato Sauce" },
+      { "unit": "oz", "qty": 8, "ingredient": "Mozzarella Cheese" },
+      { "unit": "", "qty": 6, "ingredient": "Fresh Basil Leaves" },
+      { "unit": "tbsp", "qty": 1, "ingredient": "Olive Oil" }
+    ],
+    "instructions": [
+      "Spread tomato sauce on dough.",
+      "Add mozzarella and basil.",
+      "Bake at 475°F for 10-15 minutes."
+    ]
+  },
+  {
+    "name": "Beef Stroganoff",
+    "ingredients": [
+      { "unit": "lb", "qty": 1, "ingredient": "Beef (sirloin or chuck), sliced" },
+      { "unit": "cup", "qty": 2, "ingredient": "Mushrooms, sliced" },
+      { "unit": "", "qty": 1, "ingredient": "Onion, chopped" },
+      { "unit": "cup", "qty": 1, "ingredient": "Sour Cream" },
+      { "unit": "tbsp", "qty": 2, "ingredient": "Butter" },
+      { "unit": "clove", "qty": 2, "ingredient": "Garlic, minced" }
+    ],
+    "instructions": [
+      "Sauté beef and mushrooms.",
+      "Add onions and garlic.",
+      "Stir in sour cream and serve over noodles."
+    ]
+  },
+  {
+    "name": "Vegetable Stir-Fry",
+    "ingredients": [
+      { "unit": "cup", "qty": 1.5, "ingredient": "Broccoli Florets" },
+      { "unit": "", "qty": 2, "ingredient": "Carrots, sliced" },
+      { "unit": "", "qty": 1, "ingredient": "Bell Pepper, sliced" },
+      { "unit": "tbsp", "qty": 2, "ingredient": "Soy Sauce" },
+      { "unit": "tsp", "qty": 1, "ingredient": "Ginger, grated" },
+      { "unit": "clove", "qty": 2, "ingredient": "Garlic, minced" }
+    ],
+    "instructions": [
+      "Sauté vegetables with garlic and ginger.",
+      "Add soy sauce and stir-fry until tender."
+    ]
+  },
+  {
+    "name": "French Onion Soup",
+    "ingredients": [
+      { "unit": "", "qty": 4, "ingredient": "Onions, thinly sliced" },
+      { "unit": "cup", "qty": 6, "ingredient": "Beef Broth" },
+      { "unit": "tbsp", "qty": 2, "ingredient": "Butter" },
+      { "unit": "tsp", "qty": 1, "ingredient": "Thyme" },
+      { "unit": "slice", "qty": 4, "ingredient": "Baguette, toasted" },
+      { "unit": "cup", "qty": 1, "ingredient": "Gruyère Cheese, shredded" }
+    ],
+    "instructions": [
+      "Caramelize onions.",
+      "Add broth and thyme.",
+      "Serve with toasted baguette and melted cheese."
+    ]
+  },
+  {
+    "name": "Lemon Garlic Salmon",
+    "ingredients": [
+      { "unit": "lb", "qty": 1.5, "ingredient": "Salmon Fillet" },
+      { "unit": "tbsp", "qty": 2, "ingredient": "Lemon Juice" },
+      { "unit": "clove", "qty": 3, "ingredient": "Garlic, minced" },
+      { "unit": "tbsp", "qty": 2, "ingredient": "Butter" },
+      { "unit": "tbsp", "qty": 1, "ingredient": "Chopped Fresh Parsley" },
+      { "unit": "tsp", "qty": 1, "ingredient": "Salt" }
+    ],
+    "instructions": [
+      "Season salmon with lemon juice and garlic.",
+      "Bake at 400°F for 12-15 minutes."
+    ]
+  },
+  {
+    "name": "Banana Bread",
+    "ingredients": [
+      { "unit": "", "qty": 3, "ingredient": "Ripe Bananas" },
+      { "unit": "cup", "qty": 2, "ingredient": "Flour" },
+      { "unit": "cup", "qty": 1, "ingredient": "Sugar" },
+      { "unit": "", "qty": 2, "ingredient": "Eggs" },
+      { "unit": "cup", "qty": 0.5, "ingredient": "Butter, melted" },
+      { "unit": "tsp", "qty": 1, "ingredient": "Baking Soda" },
+      { "unit": "tsp", "qty": 1, "ingredient": "Vanilla Extract" }
+    ],
+    "instructions": [
+      "Mash bananas.",
+      "Mix with other ingredients.",
+      "Pour into a loaf pan and bake at 350°F for 50–60 minutes."
+    ]
+  },
+  {
+    "name": "Tomato Basil Soup",
+    "ingredients": [
+      { "unit": "", "qty": 6, "ingredient": "Tomatoes, chopped" },
+      { "unit": "cup", "qty": 1, "ingredient": "Fresh Basil Leaves" },
+      { "unit": "clove", "qty": 2, "ingredient": "Garlic, minced" },
+      { "unit": "", "qty": 1, "ingredient": "Onion, chopped" },
+      { "unit": "cup", "qty": 3, "ingredient": "Vegetable Broth" },
+      { "unit": "tbsp", "qty": 1, "ingredient": "Olive Oil" }
+    ],
+    "instructions": [
+      "Sauté garlic and onion.",
+      "Add tomatoes and broth. Simmer.",
+      "Blend until smooth. Stir in basil and serve."
+    ]
+  },
+  {
+    "name": "Shrimp Scampi",
+    "ingredients": [
+      { "unit": "lb", "qty": 1, "ingredient": "Shrimp, peeled and deveined" },
+      { "unit": "clove", "qty": 3, "ingredient": "Garlic, minced" },
+      { "unit": "tbsp", "qty": 3, "ingredient": "Butter" },
+      { "unit": "tbsp", "qty": 2, "ingredient": "Lemon Juice" },
+      { "unit": "cup", "qty": 0.25, "ingredient": "White Wine" },
+      { "unit": "tbsp", "qty": 2, "ingredient": "Chopped Parsley" },
+      { "unit": "oz", "qty": 8, "ingredient": "Spaghetti" }
+    ],
+    "instructions": [
+      "Sauté garlic in butter.",
+      "Add shrimp, lemon juice, and wine.",
+      "Serve over cooked spaghetti with parsley."
+    ]
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "ingredients": [
+      { "unit": "", "qty": 4, "ingredient": "Bell Peppers, tops removed" },
+      { "unit": "lb", "qty": 1, "ingredient": "Ground Beef" },
+      { "unit": "cup", "qty": 1.5, "ingredient": "Cooked Rice" },
+      { "unit": "cup", "qty": 1, "ingredient": "Tomato Sauce" },
+      { "unit": "", "qty": 1, "ingredient": "Onion, chopped" },
+      { "unit": "clove", "qty": 2, "ingredient": "Garlic, minced" },
+      { "unit": "cup", "qty": 1, "ingredient": "Shredded Cheese" }
+    ],
+    "instructions": [
+      "Cook beef and rice. Mix with tomato sauce and seasonings.",
+      "Stuff into bell peppers.",
+      "Bake at 375°F for 30 minutes."
+    ]
+  },
+  {
+    "name": "Eggplant Parmesan",
+    "ingredients": [
+      { "unit": "", "qty": 2, "ingredient": "Eggplants, sliced" },
+      { "unit": "cup", "qty": 2, "ingredient": "Tomato Sauce" },
+      { "unit": "cup", "qty": 1, "ingredient": "Mozzarella Cheese, shredded" },
+      { "unit": "cup", "qty": 0.5, "ingredient": "Parmesan Cheese" },
+      { "unit": "cup", "qty": 1, "ingredient": "Breadcrumbs" },
+      { "unit": "tbsp", "qty": 2, "ingredient": "Olive Oil" }
+    ],
+    "instructions": [
+      "Slice and bread eggplant. Fry until golden.",
+      "Layer with sauce and cheese.",
+      "Bake at 375°F for 25 minutes."
+    ]
+  },
+  {
+    "name": "Teriyaki Chicken",
+    "ingredients": [
+      { "unit": "lb", "qty": 1.5, "ingredient": "Chicken Thighs, cut" },
+      { "unit": "cup", "qty": 0.25, "ingredient": "Soy Sauce" },
+      { "unit": "tbsp", "qty": 2, "ingredient": "Brown Sugar" },
+      { "unit": "clove", "qty": 2, "ingredient": "Garlic, minced" },
+      { "unit": "tsp", "qty": 1, "ingredient": "Ginger, grated" },
+      { "unit": "tbsp", "qty": 1, "ingredient": "Sesame Seeds" }
+    ],
+    "instructions": [
+      "Marinate chicken in soy sauce, sugar, garlic, and ginger.",
+      "Cook until caramelized.",
+      "Sprinkle with sesame seeds."
+    ]
+  },
+  {
+    "name": "Greek Salad",
+    "ingredients": [
+      { "unit": "", "qty": 2, "ingredient": "Tomatoes, chopped" },
+      { "unit": "", "qty": 1, "ingredient": "Cucumber, sliced" },
+      { "unit": "", "qty": 0.5, "ingredient": "Red Onion, sliced" },
+      { "unit": "cup", "qty": 0.5, "ingredient": "Feta Cheese, crumbled" },
+      { "unit": "cup", "qty": 0.5, "ingredient": "Olives" },
+      { "unit": "tbsp", "qty": 2, "ingredient": "Olive Oil" },
+      { "unit": "tsp", "qty": 1, "ingredient": "Oregano" }
+    ],
+    "instructions": [
+      "Chop vegetables.",
+      "Toss with feta, olives, and olive oil.",
+      "Sprinkle with oregano and serve."
+    ]
+  },
+  {
+    "name": "Pumpkin Pie",
+    "ingredients": [
+      { "unit": "cup", "qty": 1.75, "ingredient": "Pumpkin Puree" },
+      { "unit": "cup", "qty": 0.75, "ingredient": "Sugar" },
+      { "unit": "", "qty": 2, "ingredient": "Eggs" },
+      { "unit": "cup", "qty": 1, "ingredient": "Evaporated Milk" },
+      { "unit": "tsp", "qty": 1, "ingredient": "Cinnamon" },
+      { "unit": "tsp", "qty": 0.25, "ingredient": "Nutmeg" },
+      { "unit": "", "qty": 1, "ingredient": "Pie Crust" }
+    ],
+    "instructions": [
+      "Mix ingredients.",
+      "Pour into pie crust.",
+      "Bake at 350°F for 45 minutes."
+    ]
+  },
+  {
+    "name": "Garlic Butter Steak",
+    "ingredients": [
+      { "unit": "lb", "qty": 1.5, "ingredient": "Steak" },
+      { "unit": "clove", "qty": 3, "ingredient": "Garlic, minced" },
+      { "unit": "tbsp", "qty": 2, "ingredient": "Butter" },
+      { "unit": "tsp", "qty": 1, "ingredient": "Salt" },
+      { "unit": "tsp", "qty": 0.5, "ingredient": "Pepper" },
+      { "unit": "sprig", "qty": 1, "ingredient": "Fresh Rosemary" }
+    ],
+    "instructions": [
+      "Season steak.",
+      "Sear in a hot pan with butter and garlic.",
+      "Finish with rosemary and serve."
+    ]
+  },
+  {
+    "name": "Mango Smoothie",
+    "ingredients": [
+      { "unit": "cup", "qty": 1.5, "ingredient": "Mango, chopped" },
+      { "unit": "cup", "qty": 0.75, "ingredient": "Yogurt" },
+      { "unit": "tbsp", "qty": 1, "ingredient": "Honey" },
+      { "unit": "cup", "qty": 0.5, "ingredient": "Milk" }
+    ],
+    "instructions": [
+      "Blend all ingredients until smooth.",
+      "Serve immediately."
+    ]
+  }
+]
 }
