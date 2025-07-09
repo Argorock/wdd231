@@ -1,0 +1,1 @@
+/* Get the customer first and last name and generate a thank-you message that includes their name */

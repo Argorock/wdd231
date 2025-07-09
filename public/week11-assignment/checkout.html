@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quinn's Rock Shop Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+    <script src="checkout.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Quinn's Rock Shop Checkout</h1>
+
+        <!-- Product Display Section -->
+        <div class="product-display">
+            <div class="product-info">
+                <img src="mysterious-crystal.jpg" alt="Mysterious Crystal" class="product-image">
+                <div>
+                    <h2>Mysterious Crystal</h2>
+                    <p>Price: $250.00</p>
+                    <p>Quantity: 1</p>
+                </div>
+            </div>
+            <div class="total-price">
+                Total: $250.00
+            </div>
+        </div>
+
+        <form id="checkoutForm" action="order-confirmation.html" method="GET">
+
+            <!-- Error Messages Div -->
+            <div id="errorMessages" class="error-messages hidden">
+                <p>Please correct the following errors:</p>
+                <ul></ul>
+            </div>
+
+            <!-- Customer Information Fieldset -->
+            <fieldset>
+                <legend>Customer Information</legend>
+
+                <div class="form-group-grid">
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required pattern="[A-Z][a-z]*" title="First name must start with a capital letter.">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" pattern="[A-Z][a-z]*" title="Last name must start with a capital letter (if entered).">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="streetAddress">Street Address:</label>
+                    <input type="text" id="streetAddress" name="streetAddress" required maxlength="30">
+                </div>
+
+                <div class="form-group-grid triple">
+                    <div class="form-group">
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" required maxlength="20" pattern=".*[aeiouAEIOU].*" title="City must contain at least one vowel (a, e, i, o, u).">
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State:</label>
+                        <input type="text" id="state" name="state" required pattern="[A-Z]{2}" title="State must be 2 uppercase letters.">
+                    </div>
+                    <div class="form-group">
+                        <label for="zipCode">Zip Code:</label>
+                        <input type="text" id="zipCode" name="zipCode" required pattern="\d{5}" title="ZIP code must be exactly 5 digits.">
+
+                    </div>
+                </div>
+            </fieldset>
+
+            <!-- Payment Fieldset -->
+            <fieldset>
+                <legend>Payment</legend>
+
+                <div class="form-group">
+                    <label for="cardNumber">Credit Card Number (if testing, use 4111 1111 1111 1111):</label>
+                    <input type="text" id="cardNumber" name="cardNumber">
+                </div>
+
+                <div class="form-group-grid">
+                    <div class="form-group">
+                        <label for="expMonth">Expiration Month:</label>
+                        <input type="number" id="expMonth" name="expMonth" placeholder="MM" >
+                    </div>
+                    <div class="form-group">
+                        <label for="expYear">Expiration Year:</label>
+                        <input type="number" id="expYear" name="expYear" placeholder="YYYY">
+                    </div>
+                </div>
+            </fieldset>
+
+            <!-- Place Order Button -->
+            <div class="button-container">
+                <button type="submit" class="place-order-button">
+                    Place Order
+                </button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
